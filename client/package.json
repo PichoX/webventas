@@ -1,0 +1,25 @@
+{
+    "name": "tienda-digital-server",
+    "version": "1.0.0",
+    "description": "Backend para la tienda digital de productos digitales",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "keywords": ["nodejs", "express", "mongodb", "tienda-digital"],
+    "author": "Tu Nombre",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^6.0.12",
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
+      "bcryptjs": "^2.4.3",
+      "jsonwebtoken": "^8.5.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.14"
+    }
+  }
